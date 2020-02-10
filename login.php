@@ -109,7 +109,7 @@ if (isset($_POST['login'])) {
         </style>
     </header>
     <div class="container">
-        <div class="d-flex justify-content-center h-100" style="margin-top:6%;">
+        <div class="d-flex justify-content-center h-100" style="margin-top:15%;">
             <div class="card">
                 <div class="card-header">
                     <h3 style="text-align:center">Admin Login</h3>
