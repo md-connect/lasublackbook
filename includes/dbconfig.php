@@ -16,8 +16,8 @@
         <div class="card-body">
             <h1 class="card-title bg-warning">Database Connection Failed</h1>
             <h2 class="card-title">Database Failure</h2>
-            <p class="card-text"> Please Check Your Databse Connection</P>
-            a href="index.php" class="btn btn-primary">:)</a>
+            <p class="card-text"> Please Check Your Databse Connection</p>
+            <a href="index.php" class="btn btn-primary">Back to Homepage</a>
             <hr>
             </div>
             ' . mysqli_connect_error());
