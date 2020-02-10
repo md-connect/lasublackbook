@@ -37,7 +37,7 @@ $_SESSION['success'] = "";
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="page-header">
-                        <h2 class="pageheader-title">LASU BLACKBOOK</h2>
+                        <h2 class="pageheader-title" style="color: black !important">LASU BLACKBOOK</h2>
 
                         <div class="page-breadcrumb">
                             <nav aria-label="breadcrumb">
@@ -180,12 +180,8 @@ $_SESSION['success'] = "";
     <!-- ============================================================== -->
     <!-- footer -->
     <!-- ============================================================== -->
-    <div class="footer">
-        <div class="container-fluid">
-            <p style="text-align: center"> Copyright © LASU 2019 Concept. All rights reserved.</p>
-        </div>
+    <?php include("footer.php"); ?>
 
-    </div>
     <!-- ============================================================== -->
     <!-- end footer -->
     <!-- ============================================================== -->

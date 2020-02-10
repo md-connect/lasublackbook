@@ -80,97 +80,6 @@ if (isset($_POST['login'])) {
     <link rel="stylesheet" type="text/css" href="assets/vendor/style.css">
 
     <title>LASU's Black Book</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Numans');
-
-        html,
-        body {
-            background-image: url('assets/images/2-5.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            /*   overflow: hidden; */
-            height: 50vh;
-            font-family: 'Numans', sans-serif;
-        }
-
-        .footer {
-            background: black;
-            /* color: white; */
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            /* Footer height */
-        }
-
-        .card {
-            height: 370px;
-            margin-top: auto;
-            margin-bottom: auto;
-            width: 400px;
-            background-color: rgba(0, 0, 0, 0.5) !important;
-        }
-
-        .card-header h3 {
-            color: white;
-        }
-
-        .input-group-prepend span {
-            width: 50px;
-            background-color: #ffc312;
-            color: black;
-            border: 0 !important;
-        }
-
-        input:focus {
-            outline: 0 0 0 0 !important;
-            box-shadow: 0 0 0 0 !important;
-        }
-
-        .remember {
-            color: white;
-        }
-
-        .remember input {
-            width: 20px;
-            height: 20px;
-            margin-left: 15px;
-            margin-right: 5px;
-        }
-
-        .login_btn {
-            color: black;
-            background-color: #ffc312;
-            width: 100px;
-        }
-
-        .login_btn:hover {
-            color: black;
-            background-color: white;
-        }
-
-        .links {
-            color: white;
-        }
-
-        .links a {
-            margin-left: 4px;
-        }
-
-        @media (min-width: 768px) {
-            .navbar-brand {
-                /* position: absolute; */
-                width: 100%;
-                left: 0;
-                text-align: center;
-            }
-        }
-
-        .error {
-            color: red;
-        }
-    </style>
 </head>
 
 <body>
@@ -237,7 +146,7 @@ if (isset($_POST['login'])) {
                         </div>
 
                         <div class="form-group">
-                            <a href="./forgot_password.php" class="float-left" style="color:red;">Forgot your password?</a>
+                            <a href="./forgot_password.php" class="float-left" style="color:red;">Forgot password?</a>
                             <input type="submit" value="Login" name="login" class="btn float-right login_btn">
                         </div>
                     </form>
@@ -246,13 +155,7 @@ if (isset($_POST['login'])) {
             </div>
         </div>
     </div>
-    <div class="footer" style="background: whitesmoke">
-        <div class="container-fluid">
-            <p style="text-align: center"> Copyright © LASU 2019 Concept. All rights reserved. Developed by Omojuwa Oluwatoyin</p>
-        </div>
-
-    </div>
-
+    <?php include("footer.php"); ?>
 
     <!-- Optional JavaScript -->
     <!-- jquery 3.3.1 -->

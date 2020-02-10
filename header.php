@@ -10,17 +10,8 @@
     <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/libs/css/style.css">
     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-
     <title>LASU's Black Book</title>
-    <style>
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 2.5rem;
-            /* Footer height */
-        }
-    </style>
+
 </head>
 
 <body>
@@ -32,8 +23,8 @@
         <!-- navbar -->
         <!-- ============================================================== -->
         <div class="dashboard-header">
-            <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="dashboard.php">Blackbook</a>
+            <nav class="navbar navbar fixed-top navbar-expand-lg bg-white">
+                <a class="navbar-brand" href="dashboard.php" style="color: black !important">Blackbook</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -99,13 +90,13 @@
 
                             <li class="nav-item">
                                 <a class="nav-link" href="crime-form.php"><i class="fa fa-fw fa-plus"></i>Add to Blacklist
-                                    </a>
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="view-records.php"><i class="fa fa-fw fa-list"></i>Crime
                                     Records</a>
                             </li>
-                            
+
                             <li class="nav-divider">
 
                             </li>
